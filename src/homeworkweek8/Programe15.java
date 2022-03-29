@@ -16,8 +16,8 @@ public class Programe15 {
 
     public static void test() {
         int n = 5;
-        for (int i = 1; i <= n; i++) {
-            for (int j = i; j <= n; j++) {
+        for (int i = 1; i <= n; i++) {// row loop logic
+            for (int j = i; j <= n; j++) {// column loop logic
                 System.out.print(" ");
             }
             for (int j = 1; j <= i; j++) {

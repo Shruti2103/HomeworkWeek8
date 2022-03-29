@@ -40,7 +40,7 @@ public class Programe14 {
                 System.out.print(" ");
             }
             j = 1;
-            while (j++ <= i * 2-1) {
+            while (j++ <= i * 2 - 1) {
                 System.out.print(c);
             }
             System.out.println();
@@ -57,7 +57,7 @@ public class Programe14 {
                 System.out.print(" ");
             }
             j = 1;
-            while (j++ <= i * 2-1) {
+            while (j++ <= i * 2 - 1) {
                 System.out.print(c);
             }
             System.out.println();

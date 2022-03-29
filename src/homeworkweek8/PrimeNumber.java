@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args) {
 
-        Scanner sc =new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number");
-        int x=sc.nextInt();
+        int x = sc.nextInt();
 
 
         PrimeNumber obj = new PrimeNumber();
@@ -16,7 +16,7 @@ public class PrimeNumber {
 
     }
 
-    public boolean x (int a) {
+    public boolean x(int a) {
         int rem;
         boolean x = true;
         //int a = 13;
@@ -28,12 +28,11 @@ public class PrimeNumber {
                 break;
             }
         }
-            if (x) {
-                System.out.println(a + "is Prime number");
-            } else {
-                System.out.println(a + "is not a Prime number");
-            }
-
+        if (x) {
+            System.out.println(a + "is Prime number");
+        } else {
+            System.out.println(a + "is not a Prime number");
+        }
 
 
         return x;

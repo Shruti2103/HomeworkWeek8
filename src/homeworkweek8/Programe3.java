@@ -9,7 +9,7 @@ import java.util.Scanner;
         error message.*/
 public class Programe3 {
     public static void main(String[] args) {
-        Programe3 programe3=new Programe3();
+        Programe3 programe3 = new Programe3();
         programe3.VowelCheck();
 
     }
@@ -23,9 +23,9 @@ public class Programe3 {
         boolean flag = Character.isAlphabetic(ch);
         if (s1.length() == 1 && flag) {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-            System.out.println(ch + "is vowel");
-        else
-            System.out.println(ch + "is consonant");
+                System.out.println(ch + "is vowel");
+            else
+                System.out.println(ch + "is consonant");
         } else
             System.out.println("invalid Input");
 

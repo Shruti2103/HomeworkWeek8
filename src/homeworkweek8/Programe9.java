@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Programe9 {
 
     public static void main(String[] args) {
-     Programe9 obj=new Programe9();
-     obj.test();
+        Programe9 obj = new Programe9();
+        obj.test();
 
     }
 
